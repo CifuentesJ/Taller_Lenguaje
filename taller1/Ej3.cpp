@@ -14,14 +14,14 @@ int main() {
 	cout << "Ingrese N: ";
 	cin >> N;
 
-	int *A = new int[N];
+	int* A = new int[N];
 
 
 	for (int i = 0; i < N; i++) {
 		A[i] = 10 + rand() % 91;
 	}
 
-	cout << "Vector: " << endl;
+	cout << "\nVector: " << endl;
 	for (int i = 0; i < N; i++) {
 		cout << A[i] << " ";
 	}
@@ -32,10 +32,13 @@ int main() {
 			cout << A[i] << " ";
 		}
 	}
-
-
-
-
+	cout << "\n\nForma inversa sin mult 3: " << endl;
+	for (int i = (N-1); i >= 0; i--) {
+		if (A[i] % 3 == 0) {
+			A[i] = 0;
+		}
+		cout << A[i] << " ";
+	}
 
 	return 0;
 }
