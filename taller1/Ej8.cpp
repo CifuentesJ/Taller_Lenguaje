@@ -40,5 +40,6 @@ int main(){
         cout << "(" << vec[i] << ") "; 
     }
     cout<< "\n\nEcuación: " << ec << endl;
+    
     return 0;
 }
