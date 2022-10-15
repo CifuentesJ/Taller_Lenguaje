@@ -1,0 +1,8 @@
+{
+    "files.associations": {
+        "iostream": "cpp",
+        "new": "cpp",
+        "clocale": "cpp",
+        "ostream": "cpp"
+    }
+}

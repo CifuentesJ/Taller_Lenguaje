@@ -1,0 +1,1 @@
+/* 5.	Llevar los elementos de la diagonal principal y la diagonal secundaria de una matriz de NxN a un vector de Nx2 posiciones. Imprimirlos en orden ascendente */
