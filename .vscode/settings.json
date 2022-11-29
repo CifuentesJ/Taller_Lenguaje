@@ -3,6 +3,8 @@
         "iostream": "cpp",
         "new": "cpp",
         "clocale": "cpp",
-        "ostream": "cpp"
+        "ostream": "cpp",
+        "cstdlib": "cpp",
+        "vector": "cpp"
     }
 }
